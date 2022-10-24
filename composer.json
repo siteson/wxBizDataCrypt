@@ -1,0 +1,21 @@
+{
+    "name": "siteson/wx_biz_data_crypt",
+    "description": "wxBizDataCrypt: Decryption of WeChat open data.",
+    "authors": [
+        {
+        "name": "Siteson"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ty\\": "src/"
+        },
+        "files": [
+            "src/wxBizDataCrypt.php"
+        ]
+    }
+}
